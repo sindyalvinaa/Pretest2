@@ -22,7 +22,30 @@ Route::get('/welcome', function () {
 Route::get('/about', function(){
     return view('about');
 });
+Route::get('/pricing', function(){
+    return view('pricing');
+});
 
 Route::get('/contact', function(){
     return view('contact');
+});
+
+Route::get('/blog-grids', function(){
+    return view('blog-grids');
+});
+
+Route::get('/blog-details', function(){
+    return view('blog-details');
+});
+
+Route::get('/signup', function(){
+    return view('signup');
+});
+
+Route::get('/signin', function(){
+    return view('signin');
+});
+
+Route::get('/404', function(){
+    return view('404');
 });
